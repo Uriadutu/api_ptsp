@@ -1,0 +1,104 @@
+/* eslint-disable no-unused-vars */
+import React from "react";
+
+function Navbar() {
+
+    return (
+
+        <div className="fixed top-0 w-full p-3 bg-white z-[100] drop-shadow-lg">
+            <div className="flex justify-between items-center">
+                <div className="text-2xl font-bold cursor-pointer">24Bali</div>
+                <div className="text-2xl font-bold cursor-pointer">Logout</div>
+            </div>
+        </div>
+
+    );
+
+}
+
+function Response() {
+
+    return (
+
+        <body class="bg-gradient-to-b from-[#37B9C2] to-[#98C3C4] m-0 p-5 flex justify-center items-center h-[95vh]">
+            <div class="container bg-white rounded-2xl p-5 w-[95%] h-[90%] shadow-lg flex flex-col justify-between">
+                <div class="upper-bar flex justify-between items-center mb-5">
+                    <div class="back-button text-2xl font-bold cursor-pointer">&larr; Back</div>
+                    <h3 class="font-semibold">List Response</h3>
+                    <h3 class="font-semibold">Selasa, 9 July 2024</h3>
+                </div>
+                
+                <div class="responses grid grid-cols-2 gap-5 mt-5">
+                    <div class="response-item bg-gray-100 rounded-xl p-5 flex flex-col justify-between shadow-md">
+                        <div class="user-info flex items-center mb-2.5">
+                            <div class="avatar bg-red-500 w-12 h-12 rounded-full mr-2.5"></div>
+                            <div class="user-details flex flex-col">
+                                <strong class="text-lg">User1234</strong>
+                                <small class="text-gray-500">Tuesday, 18.30</small>
+                            </div>
+                        </div>
+                        <p class="question font-bold my-2.5">Where do i find a Cozy Caffe?</p>
+                        <p class="admin-response text-sm text-gray-800 my-2.5">Admin: Hello! You can find caffe on any legian streets</p>
+                        <div class="actions flex justify-end gap-2.5 text-xl">
+                            <span class="like cursor-pointer">&#128077;</span>
+                            <span class="share cursor-pointer">&#128257;</span>
+                        </div>
+                    </div>
+                    !-- Repeat the above response-item div for each response item --{">"}
+                    <div class="response-item bg-gray-100 rounded-xl p-5 flex flex-col justify-between shadow-md">
+                        <div class="user-info flex items-center mb-2.5">
+                            <div class="avatar bg-red-500 w-12 h-12 rounded-full mr-2.5"></div>
+                            <div class="user-details flex flex-col">
+                                <strong class="text-lg">User1234</strong>
+                                <small class="text-gray-500">Tuesday, 18.30</small>
+                            </div>
+                        </div>
+                        <p class="question font-bold my-2.5">Where do i find a Cozy Caffe?</p>
+                        <p class="admin-response text-sm text-gray-800 my-2.5">Admin: Hello! You can find caffe on any legian streets</p>
+                        <div class="actions flex justify-end gap-2.5 text-xl">
+                            <span class="like cursor-pointer">&#128077;</span>
+                            <span class="share cursor-pointer">&#128257;</span>
+                        </div>
+                    </div>
+                    <div class="response-item bg-gray-100 rounded-xl p-5 flex flex-col justify-between shadow-md">
+                        <div class="user-info flex items-center mb-2.5">
+                            <div class="avatar bg-red-500 w-12 h-12 rounded-full mr-2.5"></div>
+                            <div class="user-details flex flex-col">
+                                <strong class="text-lg">User1234</strong>
+                                <small class="text-gray-500">Tuesday, 18.30</small>
+                            </div>
+                        </div>
+                        <p class="question font-bold my-2.5">Where do i find a Cozy Caffe?</p>
+                        <p class="admin-response text-sm text-gray-800 my-2.5">Admin: Hello! You can find caffe on any legian streets</p>
+                        <div class="actions flex justify-end gap-2.5 text-xl">
+                            <span class="like cursor-pointer">&#128077;</span>
+                            <span class="share cursor-pointer">&#128257;</span>
+                        </div>
+                    </div>
+                    <div class="response-item bg-gray-100 rounded-xl p-5 flex flex-col justify-between shadow-md">
+                        <div class="user-info flex items-center mb-2.5">
+                            <div class="avatar bg-red-500 w-12 h-12 rounded-full mr-2.5"></div>
+                            <div class="user-details flex flex-col">
+                                <strong class="text-lg">User1234</strong>
+                                <small class="text-gray-500">Tuesday, 18.30</small>
+                            </div>
+                        </div>
+                        <p class="question font-bold my-2.5">Where do i find a Cozy Caffe?</p>
+                        <p class="admin-response text-sm text-gray-800 my-2.5">Admin: Hello! You can find caffe on any legian streets</p>
+                        <div class="actions flex justify-end gap-2.5 text-xl">
+                            <span class="like cursor-pointer">&#128077;</span>
+                            <span class="share cursor-pointer">&#128257;</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="bottom-bar text-right mt-5">
+                    <a href="#" class="font-bold text-gray-800">For More &gt;&gt;</a>
+                </div>
+            </div>
+        </body>
+
+    );
+}
+
+export default Response;
